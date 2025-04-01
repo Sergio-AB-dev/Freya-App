@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Sergio-AB-dev/Freya-App/static/css/main.9362eb8c.css",
+    "main.js": "/Sergio-AB-dev/Freya-App/static/js/main.54dddec7.js",
+    "static/media/MegabyteBold.otf": "/Sergio-AB-dev/Freya-App/static/media/MegabyteBold.b5bf70c59f195d33c8e5.otf",
+    "index.html": "/Sergio-AB-dev/Freya-App/index.html",
+    "main.9362eb8c.css.map": "/Sergio-AB-dev/Freya-App/static/css/main.9362eb8c.css.map",
+    "main.54dddec7.js.map": "/Sergio-AB-dev/Freya-App/static/js/main.54dddec7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9362eb8c.css",
+    "static/js/main.54dddec7.js"
+  ]
+}
