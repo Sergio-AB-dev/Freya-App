@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Freya-App/static/css/main.a282bcfa.css",
-    "main.js": "/Freya-App/static/js/main.91122600.js",
+    "main.js": "/Freya-App/static/js/main.326e0163.js",
     "static/media/MegabyteBold.otf": "/Freya-App/static/media/MegabyteBold.b5bf70c59f195d33c8e5.otf",
     "index.html": "/Freya-App/index.html",
     "main.a282bcfa.css.map": "/Freya-App/static/css/main.a282bcfa.css.map",
-    "main.91122600.js.map": "/Freya-App/static/js/main.91122600.js.map"
+    "main.326e0163.js.map": "/Freya-App/static/js/main.326e0163.js.map"
   },
   "entrypoints": [
     "static/css/main.a282bcfa.css",
-    "static/js/main.91122600.js"
+    "static/js/main.326e0163.js"
   ]
 }
