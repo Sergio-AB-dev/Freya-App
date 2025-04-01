@@ -27,7 +27,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/" className="header__logo">
-        <img className="header__logo__img" src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
+        <img className="header__logo__img" src={`${process.env.PUBLIC_URL}/ASSETS/Logo.png`} alt="Logo" />
         <h1 className="header__logo__title">Freya-App</h1>
       </Link>
       <ul className="header__links">
