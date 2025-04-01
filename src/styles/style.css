@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "megabyte";
+    src: url("/public/ASSETS/megabyte-cufonfonts/MegabyteBold.otf") format("opentype");
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "megabyte", sans-serif;
+}   
+
+body {
+    background-color: #141f24;
+}

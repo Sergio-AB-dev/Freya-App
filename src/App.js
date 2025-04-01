@@ -1,0 +1,40 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+
+function Home() {
+  return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Inicio</h2>;
+}
+
+function Apuntes() {
+  return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Apuntes</h2>;
+}
+
+function Calificaciones() {
+  return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Calificaciones</h2>;
+}
+
+function Recordatorios() {
+  return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Recordatorios</h2>;
+}
+
+function Configuracion() {
+  return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Configuración</h2>;
+}
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/apuntes" element={<Apuntes />} />
+        <Route path="/calificaciones" element={<Calificaciones />} />
+        <Route path="/recordatorios" element={<Recordatorios />} />
+        <Route path="/configuracion" element={<Configuracion />} />
+      </Routes>
+    </div>
+  );
+}
+
+export default App;
