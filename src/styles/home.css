@@ -1,0 +1,77 @@
+.saludo {
+    font-family: "gidole", sans-serif;
+    color: #f1f7fb;
+    width: 100%;
+    text-align: center;
+    font-size: 4svw;
+    margin-top: 50px;
+}
+
+.saludo__bienvenida {
+    margin: auto;
+    width: 70%;
+}
+
+.saludo__bienvenida--dots {
+    font-size: 6svw;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    width: 1.5em; /* Espacio reservado para los puntos */
+    text-align: left;
+}
+
+.saludo__bienvenida--dots::after {
+    content: "";
+    display: inline-block;
+    animation: dotsAnimation 1.5s infinite steps(4);
+}
+
+/* Animación de los puntos */
+@keyframes dotsAnimation {
+    0% { content: ""; }
+    25% { content: "."; }
+    50% { content: ".."; }
+    75% { content: "..."; }
+    100% { content: ""; }
+}
+
+.saludo__botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.saludo__boton {
+    margin: 40px 30px 0 0;
+    width: 215px;
+    height: 51px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 7px 0px 0px rgba(255, 255, 255, 0.52);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton--creacion {
+    background-color: #ff8002;
+}
+
+.boton--inicio {
+    background-color: #1cb0f6;
+}
+
+@media (max-width: 1030px) {
+
+    .saludo {
+        font-size: 5svw;
+    }
+
+    .saludo__botones {
+    flex-direction: column;
+    align-items: center;}
+}

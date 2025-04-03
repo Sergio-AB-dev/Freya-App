@@ -4,11 +4,15 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "gidole";
+    src: url(/public/ASSETS/Gidole/Gidole-Regular.ttf) format("opentype");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "megabyte", sans-serif;
 }   
 
 body {

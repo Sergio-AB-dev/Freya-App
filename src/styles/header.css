@@ -4,6 +4,7 @@
     height: 90px;
     border-bottom: 2px solid #52656d;
     align-items: center;
+    font-family: "megabyte", sans-serif;
 }
 
 .header__logo {
