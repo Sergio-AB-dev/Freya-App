@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Freya-App/static/css/main.17da0b68.css",
-    "main.js": "/Freya-App/static/js/main.3c1c8d20.js",
+    "main.css": "/Freya-App/static/css/main.019913b2.css",
+    "main.js": "/Freya-App/static/js/main.fa79507f.js",
     "static/media/MegabyteBold.otf": "/Freya-App/static/media/MegabyteBold.b5bf70c59f195d33c8e5.otf",
     "static/media/Gidole-Regular.ttf": "/Freya-App/static/media/Gidole-Regular.08bea7a124352fbf8bfa.ttf",
     "index.html": "/Freya-App/index.html",
-    "main.17da0b68.css.map": "/Freya-App/static/css/main.17da0b68.css.map",
-    "main.3c1c8d20.js.map": "/Freya-App/static/js/main.3c1c8d20.js.map"
+    "main.019913b2.css.map": "/Freya-App/static/css/main.019913b2.css.map",
+    "main.fa79507f.js.map": "/Freya-App/static/js/main.fa79507f.js.map"
   },
   "entrypoints": [
-    "static/css/main.17da0b68.css",
-    "static/js/main.3c1c8d20.js"
+    "static/css/main.019913b2.css",
+    "static/js/main.fa79507f.js"
   ]
 }
