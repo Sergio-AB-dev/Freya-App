@@ -137,6 +137,10 @@
         font-size: 5svw;
     }
 
+    .saludo__boton {
+        margin: 40px 0 0 0;
+    }
+
     .saludo__botones {
     flex-direction: column;
     align-items: center;}
