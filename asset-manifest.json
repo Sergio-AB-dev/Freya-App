@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Freya-App/static/css/main.36b55adf.css",
+    "main.css": "/Freya-App/static/css/main.e52988e0.css",
     "main.js": "/Freya-App/static/js/main.9d117134.js",
     "static/media/MegabyteBold.otf": "/Freya-App/static/media/MegabyteBold.b5bf70c59f195d33c8e5.otf",
     "static/media/Gidole-Regular.ttf": "/Freya-App/static/media/Gidole-Regular.08bea7a124352fbf8bfa.ttf",
@@ -9,11 +9,11 @@
     "static/media/examen.png": "/Freya-App/static/media/examen.3b5e9cc561eaf6561f56.png",
     "static/media/layered-waves-haikei.jpeg": "/Freya-App/static/media/layered-waves-haikei.90a71c0d08693be6b918.jpeg",
     "index.html": "/Freya-App/index.html",
-    "main.36b55adf.css.map": "/Freya-App/static/css/main.36b55adf.css.map",
+    "main.e52988e0.css.map": "/Freya-App/static/css/main.e52988e0.css.map",
     "main.9d117134.js.map": "/Freya-App/static/js/main.9d117134.js.map"
   },
   "entrypoints": [
-    "static/css/main.36b55adf.css",
+    "static/css/main.e52988e0.css",
     "static/js/main.9d117134.js"
   ]
 }
