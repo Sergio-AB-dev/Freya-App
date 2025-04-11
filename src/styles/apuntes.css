@@ -279,6 +279,10 @@
     text-align: left !important;
     unicode-bidi: embed !important;
   }
+
+  .apuntes__continer--Creacion__textarea::placeholder {
+    color: #f1f7fb;
+  }
   
 
 @media (max-width: 1030px) {
