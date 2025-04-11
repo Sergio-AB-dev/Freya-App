@@ -2,11 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
+import Apuntes from './components/Notes';
 
-
-function Apuntes() {
-  return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Apuntes</h2>;
-}
 
 function Calificaciones() {
   return <h2 style={{ color: "#f1f7fb", padding: "20px" }}>Calificaciones</h2>;
