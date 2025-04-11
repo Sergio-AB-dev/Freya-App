@@ -281,7 +281,11 @@
   }
 
   .apuntes__continer--Creacion__textarea::placeholder {
-    color: #f1f7fb;
+    color: #f1f7fb !important;
+  }
+
+  .apuntes__modal--creacion .apuntes__continer--Creacion__textarea::placeholder {
+    color: white;
   }
   
 
