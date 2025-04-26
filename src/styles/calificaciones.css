@@ -1,0 +1,362 @@
+/* calificaciones.css */
+
+/* Estilos globales */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #f1f7fb;
+  background-color: #0f172a; /* Fondo base oscuro */
+}
+
+/* Contenedor principal */
+.calificaciones-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Título principal */
+.calificaciones-title {
+  color: #fcfcfc;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Formulario de materias */
+.materia-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.materia-form input {
+  flex: 1;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #f1f7fb;
+}
+
+.materia-form input::placeholder {
+  color: rgba(241, 247, 251, 0.6);
+}
+
+.materia-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+}
+
+.materia-form button[type="submit"] {
+  background: #1cb0f6;
+  color: #000000;
+}
+
+.materia-form button[type="submit"]:hover {
+  background: #ff8002;
+}
+
+.materia-form button[type="button"] {
+  background: #f44336;
+  color: #ffffff;
+}
+
+.materia-form button[type="button"]:hover {
+  background: #da190b;
+}
+
+/* Grid de calificaciones */
+.calificaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjetas de calificaciones */
+.calificacion-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+/* Acciones de la tarjeta */
+.calificacion-acciones {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.calificacion-acciones button {
+  background: none;
+  border: none;
+  color: #f1f7fb;
+  font-size: 1.2rem;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.calificacion-acciones button:hover {
+  transform: scale(1.1);
+}
+
+/* Título de materia */
+.calificacion-card h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  padding-right: 50px;
+}
+
+/* Contenedor de notas */
+.notas-container {
+  margin-bottom: 15px;
+}
+
+/* Ítem de nota */
+.nota-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Información de nota */
+.nota-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nota-tipo {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.nota-valor {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Acciones de nota */
+.nota-acciones {
+  display: flex;
+  gap: 5px;
+}
+
+.nota-acciones button {
+  background: none;
+  border: none;
+  color: #f1f7fb;
+  font-size: 1.2rem;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nota-acciones button:hover {
+  transform: scale(1.1);
+}
+
+.nota-acciones button:last-child {
+  color: #f44336;
+}
+
+/* Formulario para editar nota */
+.nota-edit-form {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.nota-edit-form input {
+  flex: 1;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: #f1f7fb;
+}
+
+.nota-edit-form button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.nota-edit-form button[type="submit"] {
+  background: #4CAF50;
+  color: #ffffff;
+}
+
+.nota-edit-form button[type="button"] {
+  background: #f44336;
+  color: #ffffff;
+}
+
+/* Formulario para agregar nueva nota */
+.nota-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.nota-form input {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: #f1f7fb;
+}
+
+.nota-form button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.nota-form button[type="submit"] {
+  background: #1cb0f6;
+  color: #000000;
+}
+
+.nota-form button[type="button"] {
+  background: #f44336;
+  color: #ffffff;
+}
+
+/* Promedio de calificaciones */
+.promedio-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.promedio-titulo {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.promedio-valor {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Valor de la calificación */
+.calificacion-valor {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Barra de progreso */
+.calificacion-progreso {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progreso-barra {
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+/* Overlay de confirmación */
+.confirmacion-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal de confirmación */
+.confirmacion-modal {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 400px;
+}
+
+.confirmacion-modal p {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: black; /* Añade esta línea para poner el texto en negro */
+}
+
+/* Botones del modal */
+.confirmacion-botones {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.confirmacion-botones button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.confirmacion-botones button:hover {
+  transform: scale(1.05);
+}
+
+.confirmar-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+.confirmar-btn:hover {
+  background-color: #2563eb;
+}
+
+.cancelar-btn {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.cancelar-btn:hover {
+  background-color: #b91c1c;
+}
+
+
+
