@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Freya-App/static/css/main.4fa94d36.css",
-    "main.js": "/Freya-App/static/js/main.b07035eb.js",
+    "main.css": "/Freya-App/static/css/main.f64df612.css",
+    "main.js": "/Freya-App/static/js/main.da74367d.js",
     "static/media/MegabyteBold.otf": "/Freya-App/static/media/MegabyteBold.b5bf70c59f195d33c8e5.otf",
     "static/media/Gidole-Regular.ttf": "/Freya-App/static/media/Gidole-Regular.08bea7a124352fbf8bfa.ttf",
     "static/media/despertador.png": "/Freya-App/static/media/despertador.804f487a5487fad95db6.png",
     "static/media/computadora-portatil.png": "/Freya-App/static/media/computadora-portatil.0230f68fdb4d7935185a.png",
     "static/media/examen.png": "/Freya-App/static/media/examen.3b5e9cc561eaf6561f56.png",
+    "static/media/Logo.png": "/Freya-App/static/media/Logo.d65430f1d55906a86593.png",
     "static/media/layered-waves-haikei.jpeg": "/Freya-App/static/media/layered-waves-haikei.90a71c0d08693be6b918.jpeg",
     "index.html": "/Freya-App/index.html",
-    "main.4fa94d36.css.map": "/Freya-App/static/css/main.4fa94d36.css.map",
-    "main.b07035eb.js.map": "/Freya-App/static/js/main.b07035eb.js.map"
+    "main.f64df612.css.map": "/Freya-App/static/css/main.f64df612.css.map",
+    "main.da74367d.js.map": "/Freya-App/static/js/main.da74367d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fa94d36.css",
-    "static/js/main.b07035eb.js"
+    "static/css/main.f64df612.css",
+    "static/js/main.da74367d.js"
   ]
 }
