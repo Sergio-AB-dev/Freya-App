@@ -31,7 +31,7 @@ function Header() {
         <h1 className="header__logo__title">Freya-App</h1>
       </Link>
       <ul className="header__links">
-        <li><Link to="/">Inicio</Link></li>
+        <li><Link to="/home">Inicio</Link></li>
         <li><Link to="/apuntes">Apuntes</Link></li>
         <li><Link to="/calificaciones">Calificaciones</Link></li>
         <li><Link to="/recordatorios">Recordatorios</Link></li>
